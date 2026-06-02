@@ -27,6 +27,7 @@ val soundCategories = listOf(
 )
 
 @Composable
+@OptIn(ExperimentalMaterial3Api::class)
 fun MainScreen() {
     var selectedSounds by remember { mutableStateOf(setOf<String>()) }
     var volume by remember { mutableFloatStateOf(0.8f) }
