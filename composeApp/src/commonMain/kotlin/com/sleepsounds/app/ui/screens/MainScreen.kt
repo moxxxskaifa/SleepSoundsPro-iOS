@@ -48,8 +48,8 @@ fun MainScreen() {
                             colors = CardDefaults.cardColors(containerColor = if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.surface)
                         ) {
                             Column(Modifier.padding(12.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-                                Icon(Icons.Default.MusicNote, null, tint = if (selected) Color.White else MaterialTheme.colorScheme.onMaterialTheme.colorScheme.surfaceVariant, modifier = Modifier.size(24.dp))
-                                Text(sound, fontSize = 11.sp, color = if (selected) Color.White else MaterialTheme.colorScheme.onMaterialTheme.colorScheme.surfaceVariant, maxLines = 2)
+                                Icon(Icons.Default.MusicNote, null, tint = if (selected) Color.White else MaterialTheme.colorScheme.MaterialTheme.colorScheme.oncolorScheme.surfaceVariant, modifier = Modifier.size(24.dp))
+                                Text(sound, fontSize = 11.sp, color = if (selected) Color.White else MaterialTheme.colorScheme.MaterialTheme.colorScheme.oncolorScheme.surfaceVariant, maxLines = 2)
                             }
                         }
                     }
